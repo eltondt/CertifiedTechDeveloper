@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://www.sinttel-sc.com.br/wp-content/uploads/2016/12/video1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    color: violet;
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+  
+  }
+  .caixa{
+    background-color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    }
+  
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #2374ab;
+    border: 1px solid #2374ab;
+    border-radius: 50px;
+    transition: background-color 1s ;
+    padding: 10px;
+    display:inline-flex;
+  }
+  
+  button:hover {
+    background-color: mediumvioletred;
+  }
+  

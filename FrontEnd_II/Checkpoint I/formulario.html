@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<f>, initial-scale=1.0">
+    <title>Document</title>
+    <link href="formulario.css" rel="stylesheet">
+    <script src="scriptFormulario.js" defer></script>
+</head>
+<body>
+    <h1 class="titulo">Filmes</h1>
+    <div class="caixa">
+    <form>
+        <div>
+        <label for=”name” id="">Título:</label>
+        <input type=”text” name=”usuário” id="name" placeholder="Digite o nome do filme" required>
+
+        <label for=”descrição” >Descrição:</label>
+        <input type=”text” name=”usuario” id="descrição"  placeholder="Digite a descrição do filme" required>
+    
+        <label for=”url” id="">Url:</label>
+        <input type=”url” name=”usuário” id="url"  placeholder="Digite a url da imagem" required>
+
+    <fieldset>    
+        <legend> Gêneros de Filmes </legend>
+        <label for="opcao"></label>
+        <select name="interesse" id="opcao">
+        <option value="interesse" selected disabled >Interesse</option>
+        <option value="Avent">Aventura e Ação</option>
+        <option value="Drama">Drama e Suspense </option>
+        <option value="Comedia">Comédia</option>
+        <option value="Romance">Romance</option>
+        <option value="Terror">Terror</option>
+        <option value="FC">Ficção Cienífica </option>
+        </select>
+    </fieldset>
+        <button id="salvo" type="submit">Enviar</button>
+    </form>
+    </div>
+</body>
+</html>

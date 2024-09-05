@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100);
+
+:root {
+  --primary: #7898FF;
+  --secondary: #8E64C5;
+  --app-grey: #F2F2F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #F6F6F6;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#preencherCampos{
+  display:none;
+  color:red;
+}
+#cadastroRealizado{
+  font-size: 20px;
+  display:none;
+  color:#3AE050;
+}
+
