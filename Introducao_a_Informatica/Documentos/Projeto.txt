@@ -1,0 +1,106 @@
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto
+$ touch primeiro.txt
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto
+$ touch segundo.txt
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto
+$ git init
+Initialized empty Git repository in E:/Projeto/.git/
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ git add .
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   primeiro.txt
+        new file:   segundo.txt
+
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ git commit -m "criar dois arquivos"
+[master (root-commit) ad6f31d] criar dois arquivos
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 primeiro.txt
+ create mode 100644 segundo.txt
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ nano primeiro.txt
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ nano primeiro
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)        
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    primeiro.txt
+        deleted:    segundo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        primeiro1.txt
+        segundo1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ git commit "dois arquivos novos"
+error: pathspec 'dois arquivos novos' did not match any file(s) known to git
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ git commit -m "dois arquivos novos"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    primeiro.txt
+        deleted:    segundo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        primeiro1.txt
+        segundo1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ git add .
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ gt stats
+bash: gt: command not found
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    primeiro.txt -> primeiro1.txt
+        renamed:    segundo.txt -> segundo1.txt
+
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$ git commit -m "finalizado"
+[master 9500f19] finalizado
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename primeiro.txt => primeiro1.txt (100%)
+ rename segundo.txt => segundo1.txt (100%)
+
+Natha@DESKTOP-6JETSH3 MINGW64 /e/Projeto (master)
+$

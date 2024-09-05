@@ -1,0 +1,33 @@
+Comandos Criar
+$ mkdir nome da pasta - add uma nova pasta
+$ touch nome do arquivo - add um arquivo
+
+Comandos Excluir
+$ rmdir nome da pasta - exclui uma pasta vazia
+$ rm nome do arquivo - exclui o arquivo
+$ rm -r .git - apaga o repositório do projeto, desta forma apagando todo o histórico não podendo recuperar
+
+Criar Repositório e subir para Github
+$ git init - faz com que o projeto seja um repositório git ( aparecendo “master” no terminal)
+$ git add (mais o nome do arquivo) - para adicionar o arquivo no git e depois para confirmar será necessário o comando git commit -m “mensagem que quero que fique salvo no projeto”.
+$ git add . - salva tudo de uma vez, mas cuidado pois todos os arquivos vão ficar modificados com o seu nome e isso é ruim, pois se der algum problema no arquivo, será o seu nome que estará registrado como o último que mexeu.
+$ git commit -m “mensagem que quero que fique salvo no projeto” - serve para confirmar que o arquivo está no git e será salvo as alterações.
+$ git config –global user.name “meu nome” - para configuração do git
+$ git config –global user.email “meu email” - para configuração do git
+$ git remote add origin https://github.com/DH/RepoRemoto // aponta um repositório remoto
+$ git status - para saber quais arquivos estão adicionados no git e quais faltam ser add.
+$ git push origin master - serve para subir o repositório
+$ git log - aparece quem foi as pessoas que modificaram os arquivos
+$ git remote add origin url github - para vincular com o github
+$ git remote -v - para saber se está correto, exibindo a url de destino do github
+$ git pull origin master - serve para quando da o erro de quando há o conflitos do tipo, quando há modificações em ambas as partes (git e github) na mesma linha, assim com este código ele irá mostrar o que foi escrito para ambos e vc decide o que irá ficar.
+$ git revert código - para reverter para algum lugar do histórico de commint, ou seja, eu dou o git log para ver o histórico e depois copio o código da parte que escolhi e adiciono no git revert
+$ git clone url do github - para baixar o repositório para a máquina que irá trabalhar do github
+
+Branch
+$ git branch nome que desejo - serve para copiar do local principal (master) para este novo local.
+$ git checkout nome que desejo - ele muda para o local novo.
+$ git checkout master - volto para o principal
+$ git branch -o novo do local - serve para apagar o local que desejar.
+$ git merge o nome do local - serve para juntar os dois locais, os dois trabalhos no local master, atualizando as modificações que realizou
+$ git branch -a - serve para ver quantas branch existem

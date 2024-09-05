@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+Edição do arquivo
+Mares são massas de água menor em extensão se comparados aos oceanos. 
+São delimitados pelos continentes, portanto, 
+constituem um corpo de água obstruído por uma porção de terra. 
+Os mares são, na verdade, 
+uma parte do oceano, ocupando uma área reduzida, 
+não tão profunda e cercada por terra.
+=======
+
+
+14. Os biólogos marinhos descobriram até agora 17.000 espécies prosperando nas profundezas do oceano, vivendo inteiramente sem luz solar, recebendo energia de fontes termais subaquáticas.
+
+15. Aproximadamente 15% da proteína de alta qualidade que os humanos comem vem do mar. Contudo, esse número é muito maior em muitas partes da Ásia, onde peixes e outros frutos do mar constituem a maior parte da dieta das pessoas.
+>>>>>>> 15162900f7b34ea938c29e9828b53fd8bc548ef0
