@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230415 22:47:19.996" rpa="false" schemaversion="3">
+<suite id="s1" name="Checkpoint" source="C:\Users\Elton\Desktop\Curso Degital House\4 Bimestre\Testing I\Exercícios de mesa\CheckpointElton\Processo de compra de uma peça de roupa feminina\checkpoint.robot">
+<test id="s1-t1" name="Processo de compra de uma peça de roupa feminino" line="7">
+<kw name="Acessar a loja" library="checkpoint">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230415 22:47:20.456" level="INFO">Opening browser 'Chrome' to base url 'https://demo.spreecommerce.org'.</msg>
+<status status="PASS" starttime="20230415 22:47:20.455" endtime="20230415 22:47:24.996"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230415 22:47:24.996" endtime="20230415 22:47:25.143"/>
+</kw>
+<status status="PASS" starttime="20230415 22:47:20.455" endtime="20230415 22:47:25.144"/>
+</kw>
+<kw name="Selecionar categoria" library="checkpoint">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BOTAO_WOMEN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230415 22:47:25.148" level="INFO">Clicking element 'class=nav-link main-nav-bar-item main-nav-bar-category-button dropdown-toggle'.</msg>
+<msg timestamp="20230415 22:47:25.342" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230415 22:47:25.342" level="FAIL">Element with locator 'class=nav-link main-nav-bar-item main-nav-bar-category-button dropdown-toggle' not found.</msg>
+<status status="FAIL" starttime="20230415 22:47:25.146" endtime="20230415 22:47:25.347"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230415 22:47:25.347" endtime="20230415 22:47:25.347"/>
+</kw>
+<status status="FAIL" starttime="20230415 22:47:25.146" endtime="20230415 22:47:25.348"/>
+</kw>
+<kw name="Selecionar produto" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:47:25.348" endtime="20230415 22:47:25.349"/>
+</kw>
+<kw name="Selecionar um tamanho e cor" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:47:25.349" endtime="20230415 22:47:25.349"/>
+</kw>
+<kw name="Adicionar ao carrinho de compras" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:47:25.350" endtime="20230415 22:47:25.350"/>
+</kw>
+<kw name="Login" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:47:25.351" endtime="20230415 22:47:25.351"/>
+</kw>
+<kw name="Preencher dados de billing address e clicar em Save and Continue" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:47:25.351" endtime="20230415 22:47:25.351"/>
+</kw>
+<kw name="Selecionar frete e clicar em Save and Continue" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:47:25.352" endtime="20230415 22:47:25.352"/>
+</kw>
+<kw name="Preencher dados do cartão de crédito, clicar em “Save and Continue”" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:47:25.353" endtime="20230415 22:47:25.353"/>
+</kw>
+<kw name="Checar informações e clicar em “place order”" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:47:25.354" endtime="20230415 22:47:25.355"/>
+</kw>
+<kw name="Uma mensagem “Bogus Gateway: Forced failure” deve aparecer, encerrando" library="checkpoint">
+<arg>o processo.</arg>
+<status status="NOT RUN" starttime="20230415 22:47:25.356" endtime="20230415 22:47:25.356"/>
+</kw>
+<status status="FAIL" starttime="20230415 22:47:20.453" endtime="20230415 22:47:25.359">Element with locator 'class=nav-link main-nav-bar-item main-nav-bar-category-button dropdown-toggle' not found.</status>
+</test>
+<status status="FAIL" starttime="20230415 22:47:19.999" endtime="20230415 22:47:25.363"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Checkpoint">Checkpoint</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

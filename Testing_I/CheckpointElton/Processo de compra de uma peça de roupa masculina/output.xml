@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230415 22:09:22.220" rpa="false" schemaversion="3">
+<suite id="s1" name="Checkpoint" source="C:\Users\Elton\Desktop\Curso Degital House\4 Bimestre\Testing I\Exercícios de mesa\CheckpointElton\Processo de compra de uma peça de roupa masculina\checkpoint.robot">
+<test id="s1-t1" name="Processo de compra de uma peça de roupa masculina" line="7">
+<kw name="Acessar a loja" library="checkpoint">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230415 22:09:23.014" level="INFO">Opening browser 'Chrome' to base url 'https://demo.spreecommerce.org'.</msg>
+<status status="PASS" starttime="20230415 22:09:23.013" endtime="20230415 22:09:28.877"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230415 22:09:28.877" endtime="20230415 22:09:29.046"/>
+</kw>
+<status status="PASS" starttime="20230415 22:09:23.012" endtime="20230415 22:09:29.047"/>
+</kw>
+<kw name="Selecionar categoria" library="checkpoint">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BOTAO_MEN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230415 22:09:29.062" level="INFO">Clicking element 'id=main-nav-bar'.</msg>
+<status status="PASS" starttime="20230415 22:09:29.052" endtime="20230415 22:09:29.284"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230415 22:09:33.285" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230415 22:09:29.284" endtime="20230415 22:09:33.285"/>
+</kw>
+<status status="PASS" starttime="20230415 22:09:29.050" endtime="20230415 22:09:33.285"/>
+</kw>
+<kw name="Selecionar produto" library="checkpoint">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BOTAO_PRODUTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230415 22:09:33.289" level="INFO">Clicking element 'id=product_12'.</msg>
+<status status="PASS" starttime="20230415 22:09:33.287" endtime="20230415 22:09:33.427"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230415 22:09:37.429" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230415 22:09:33.427" endtime="20230415 22:09:37.429"/>
+</kw>
+<status status="PASS" starttime="20230415 22:09:33.287" endtime="20230415 22:09:37.429"/>
+</kw>
+<kw name="Selecionar um tamanho e cor" library="checkpoint">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BOTAO_COR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230415 22:09:37.432" level="INFO">Clicking element 'class=color-select'.</msg>
+<status status="PASS" starttime="20230415 22:09:37.431" endtime="20230415 22:09:37.560"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230415 22:09:41.562" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230415 22:09:37.561" endtime="20230415 22:09:41.562"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BOTAO_TAMANHO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230415 22:09:41.563" level="INFO">Clicking element 'class=m-1 select-label'.</msg>
+<msg timestamp="20230415 22:09:41.817" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230415 22:09:41.817" level="FAIL">Element with locator 'class=m-1 select-label' not found.</msg>
+<status status="FAIL" starttime="20230415 22:09:41.562" endtime="20230415 22:09:41.822"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230415 22:09:41.822" endtime="20230415 22:09:41.822"/>
+</kw>
+<status status="FAIL" starttime="20230415 22:09:37.430" endtime="20230415 22:09:41.823"/>
+</kw>
+<kw name="Adicionar ao carrinho de compras" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:09:41.824" endtime="20230415 22:09:41.824"/>
+</kw>
+<kw name="Login" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:09:41.825" endtime="20230415 22:09:41.825"/>
+</kw>
+<kw name="Preencher dados de billing address e clicar em Save and Continue" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:09:41.825" endtime="20230415 22:09:41.826"/>
+</kw>
+<kw name="Selecionar frete e clicar em Save and Continue" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:09:41.826" endtime="20230415 22:09:41.826"/>
+</kw>
+<kw name="Preencher dados do cartão de crédito, clicar em “Save and Continue”" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:09:41.827" endtime="20230415 22:09:41.827"/>
+</kw>
+<kw name="Checar informações e clicar em “place order”" library="checkpoint">
+<status status="NOT RUN" starttime="20230415 22:09:41.828" endtime="20230415 22:09:41.828"/>
+</kw>
+<kw name="Uma mensagem “Bogus Gateway: Forced failure” deve aparecer, encerrando" library="checkpoint">
+<arg>o processo.</arg>
+<status status="NOT RUN" starttime="20230415 22:09:41.829" endtime="20230415 22:09:41.829"/>
+</kw>
+<status status="FAIL" starttime="20230415 22:09:23.010" endtime="20230415 22:09:41.830">Element with locator 'class=m-1 select-label' not found.</status>
+</test>
+<status status="FAIL" starttime="20230415 22:09:22.225" endtime="20230415 22:09:41.833"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Checkpoint">Checkpoint</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
