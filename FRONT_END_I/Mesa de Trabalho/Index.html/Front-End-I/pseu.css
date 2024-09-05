@@ -1,0 +1,47 @@
+body {
+    background-color: #231651;
+    
+}
+h1:hover {
+    color: violet;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    transition-delay: 1s;
+    transition-duration: 3s;
+    transition-property: all;
+    background-color: blue;
+}
+
+.caixa:hover{
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    transform: rotate(60deg) scale(0.5);
+    transition: transform 1s;
+
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+       
+  }
+
+  button:hover {
+    background-color: #2374ab;
+    border: 1px solid #2374ab;
+    border-radius: 50px;
+    display: block;
+
+  }
+  

@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.container-fluid {
+    background-color: cadetblue;
+    display: flex;
+    
+}
+
+.banner {
+    background-image:url("https://emtodolugarnet.files.wordpress.com/2021/01/calendario-de-estreias.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card1 {
+    padding: 35px 10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.tel {
+    padding: 0px 30px;
+    display: flex;
+    color: black;
+}
+
+.btn {
+    background-color: #af4caf;
+    font-size: 24px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  

@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://www.dlojavirtual.com/wp-content/uploads/2016/04/doces-para-vender-1024x682.jpg");
+
+}
+h1 {
+    color: rgb(0, 26, 255);
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+.caixa{
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  input,
+  select,
+  textarea,form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #2374ab;
+    border: 1px solid #2374ab;
+    border-radius: 50px;
+  }
+  

@@ -1,0 +1,49 @@
+.header {
+  padding: 10px;
+  color: black;
+}
+
+span {
+  background: black;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: yellow;
+}
+
+div {
+  background-color: green;
+  padding: 30px;
+}
+div p {
+  background-color: white;
+}
+div > p {
+  color: red;
+}
+div + p {
+  color: blue;
+}
+
+.header-tipo {
+  background: red;
+}
+
+.button-1 {
+  padding: 10px;
+  background-color: purple;
+  color: green;
+}
+
+.button-2 {
+  padding: 10px;
+  background-color: purple;
+  color: green;
+}
+
+.button-3 {
+  padding: 10px;
+  background-color: purple;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

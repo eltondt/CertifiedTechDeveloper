@@ -1,0 +1,26 @@
+.banner {
+    background-image:url("imagem2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1300px;
+    height: 400px;
+    padding: 80px, 120px;
+    border: solid  3px red;
+    border-radius: 25px;
+    margin: 20px;
+    text-align: center;
+}
+.title {
+    color: white;
+    font-size: 50px;
+}
+.subtitle {
+    color: rgba(5, 2, 2, 0.993);
+    font-size: 20px;
+}
+button {
+    background-color:rgb(136, 255, 0);
+    border-radius: 25px;
+    cursor: pointer;
+}

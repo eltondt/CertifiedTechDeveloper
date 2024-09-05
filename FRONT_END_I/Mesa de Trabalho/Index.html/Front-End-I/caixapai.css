@@ -1,0 +1,45 @@
+/* Por padrão o elemento é estático quando não é especificado nenhuma posição no CSS.
+
+/* Se especificarmos um elemento como RELATIVE você poderá alterar o top, left, right e bottom do elemento. 
+É normalmente utilizado para posicionar o elemento Pai, mas não é uma regra.
+
+*/
+
+body {
+    margin: 0%;
+  }
+  
+  div {
+    font-size: 3rem;
+  }
+  .elemento__pai {
+    background-color: blue;
+    position: relative; /* se não indicar position relative para o elemento pai e colcoar algum position para os elementos filhos, estes serão posicionados para fora do elemento pai. Por esta razão é uma boa prática colocar o elemento pai como Relative e os filhos como absolute, fixed ou sticky. */
+    height: 300vh;
+  }
+  
+  .filho-um {
+    position: absolute; /* o mais usual é colocar um elemento filho como ABSOLUTE de um elemento pai. Isso quer dizer que o elemento filho ficará na posição indicada em relação ao elemento pai e não em relação à tela. */
+    left: 500px;
+    top: 0;
+    width: 100px;
+    height: 150px;
+  
+    background-color: white;
+  }
+  
+  .filho-dois {
+    position: fixed; /* position FIXED sempre ficará fixo na tela independente da rolagem */
+    top: 200px;
+    background-color: yellow;
+    width: 500px;
+    height: 100px;
+  }
+  
+  .filho-tres {
+    position: sticky; /* position STICKY vai rolar na tela até o indicado no top, neste caso top 0, ou seja, quando chegar no topo, ele ficará fixo até a rolagem para  baixo voltar. é Comum ver este tipo de posicionamento em menus. */
+    top: 0;
+    margin-top: 300px;
+
+    background-color: rgb(0, 177, 9);
+  }

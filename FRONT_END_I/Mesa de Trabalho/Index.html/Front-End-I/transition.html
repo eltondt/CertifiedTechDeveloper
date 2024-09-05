@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      .div1 {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        transition-delay: 1s;
+        transition-duration: 3s;
+        transition-property: all;
+      }
+
+      .div1:hover {
+        background-color: blue;
+      }
+
+      @keyframes tamanho {
+        0% {
+          with: 100px;
+          height: 100px;
+        }
+        50% {
+          width: 500px;
+          height: 100px;
+          background-image: url("https://images-americanas.b2w.io/produtos/01/00/oferta/19358/1/19358143_1GG.jpg");
+        }
+        100% {
+          width: 100px;
+        }
+      }
+
+      .div2 {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        animation: tamanho 5s infinite;
+      }
+
+      .div3 {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        transform: scale(0.5);
+        transition: transform 1s;
+      }
+
+      .div3:hover {
+        transform: scale(1);
+      }
+
+      .div4 {
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+        transition: transform 1s;
+      }
+
+      .div4:hover {
+        transform: rotate(60deg) scale(0.5);
+      }
+
+      button {
+        display: none;
+      }
+
+      .div5 {
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        transition: transform 1s;
+      }
+
+      .div5:hover {
+        transform: translate(-50%, -50%);
+      }
+
+      .div5:hover + button {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <div class="div5"></div>
+    <button>VOU APARECER</button>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN FORM</title>
+    <link rel="stylesheet" href="./style_Form.css">
+
+</head>
+    <body class="corpo">
+        
+        <div>
+
+            <fieldset class="formulario">
+            
+                <form>
+
+                    <div class = "titulo">
+                        <h1>Cadastro</h1>
+                    </div>
+                    
+                    <div>
+                        <label for="name">Nome completo</label>
+                        <input class="campo" type="text" id="name" placeholder="Escreva Seu Nome">
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input class="campo"type="email" id="email" placeholder="example@example.com">
+                    </div>
+
+                    <div>
+                        <label for="phone">Número de Telefone e Whatsapp</label>
+                        <input class="campo" type="tel" id="phone" placeholder="11-98888-5555" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required>
+                    </div>  
+
+                    <br>
+
+                    <div>
+                        <label for="dataNascimento"> Data De Nascimento </label>
+                        <input type="date" id="dataNascimento" placeholder="dd-mm-aaaa">
+                    </div><br>
+
+                    
+
+                    <div class="texto">
+                        <input class="Dado" type="radio" id="Maior" name="select">
+                        <label for="Maior"> Tenho 18 anos ou mais</label>
+                    </div>
+
+                    <div class="texto">
+                        <input class="Dado" type="radio" id="Menor" name="select">
+                        <label for="Menor"> Tenho menos de 18 anos</label>
+                    </div>
+                    
+                    <div>
+                    
+                        <p>Selecione abaixo os pontos de seu maior interesse na cidade:</p>
+
+                        <div class="texto">
+                            <input type="checkbox" id="Inter_1" name="interesse1" value="Pinacoteca">
+                            <label for="Inter_1">Pinacoteca De São Paulo</label>
+                        </div>
+                        
+                        <div class="texto">
+                            <input type="checkbox" id="Inter_2" name="interesse2" value="Ibirapuera">
+                            <label for="Inter_2">Parque Do Ibirapuera</label>
+                        </div>
+
+                        <div class="texto">
+                            <input type="checkbox" id="Inter_3" name="interesse3" value="MASP">
+                            <label for="Inter_3">Museu de Arte de São Paulo Assis Chateaubriand</label>
+                        </div>
+
+                        <div class="texto">
+                            <input type="checkbox" id="Inter_4" name="interesse4" value="Paulista">
+                            <label for="Inter_4">Avenida Paulista</label>
+                        </div>
+
+                        <div class="texto">
+                            <input type="checkbox" id="Inter_5" name="interesse5" value="Mercado Municipal">
+                            <label for="Inter_5">Mercado Municipal De São Paulo</label>
+                        </div>
+
+                        <div class="texto">
+                            <input type="checkbox" id="Inter_6" name="interesse6" value="Catedral Da Sé">
+                            <label for="Inter_6">Cadetral Metropolitana De São Paulo</label>
+                        </div>
+
+                        <div class="texto">
+                            <input type="checkbox" id="Inter_7" name="interesse7" value="Theatro Municipal">
+                            <label for="Inter_7">Theatro Municipal de São Paulo</label>
+                        </div>
+                        
+                        <label for="Inter_8">Outros:</label>
+                        <input class ="campo" type="text" id="Inter_8" name="interesse8">
+
+                    </div>
+
+                    <div>
+                        <p> Quais são seus interesses na cidade? (Opcional)</p>
+
+                        <div class="texto">
+                            <input type="checkbox" id="PersoInter1" name = "InteressePess1" value="Estudante">
+                            <label for = "PersoInter1"> Estudante</label>
+                        </div>
+
+                        <div class="texto">
+                            <input type="checkbox" id="PersoInter3" name = "InteressePess3" value="Turista">
+                            <label for = "PersoInter3">Turista</label>
+                        </div>
+
+                        <div class="texto">
+                            <input type="checkbox" id="PersoInter2" name = "InteressePess2" value="Residente">
+                            <label for = "PersoInter2"> Residente</label>
+                        </div>
+                    </div>
+
+                    <div class="btns">
+                        <button class="btn" type="submit" value="ENVIAR"> ENVIAR </button>
+                        <button class="btn" type="reset" value="RESET"> LIMPAR DADOS</button>
+                    </div>
+                
+                </form>
+        
+            </fieldset>
+
+        </div>
+
+    </body>
+
+</html>

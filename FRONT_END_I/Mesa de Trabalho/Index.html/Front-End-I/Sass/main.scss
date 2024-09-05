@@ -1,0 +1,50 @@
+@import 'config/variables.scss';
+@import 'components/header.scss';
+@import 'components/footer.scss';
+
+@mixin button {
+  padding: 10px;
+  background-color: purple;
+  color: $primary;
+}
+
+@mixin superButton($color) {
+  padding: 10px;
+  background-color: purple;
+  color: $color;
+}
+
+$type: 'tipo';
+
+div {
+    background-color: $primary;
+    padding: 30px;
+
+    p {
+        background-color: white;
+    }
+
+    > p {
+        color: red;
+    }
+
+    + p {
+        color: blue;
+    }
+}
+
+.header-#{$type} {
+    background: red;
+}
+
+.button-1 {
+    @include button;
+}
+
+.button-2 {
+    @include button;
+}
+
+.button-3 {
+    @include superButton(white);
+}

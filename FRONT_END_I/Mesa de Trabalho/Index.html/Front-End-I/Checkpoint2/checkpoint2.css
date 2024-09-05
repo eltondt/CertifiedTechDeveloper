@@ -1,0 +1,194 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  /* IMPORT */
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;1,300&display=swap');
+  
+  /* FONTS SIZE APLCATION */
+  body {
+    font-family: 'Anton', sans-serif, Arial, Helvetica;
+  }
+  
+  h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 72px;
+  }
+  
+  h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 56px;
+  }
+  
+  p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+  }
+  
+  /* BODY */
+  body {
+    background-image: url('https://www.clubelatino.com.br/wp-content/uploads/2018/08/sao-paulo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* HEADER */
+  header.textheader {
+    color: rgb(0, 0, 8);
+    text-shadow: 5px 4px 3px rgb(255, 238, 2);
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(118, 126, 150, 0.5);
+    border-radius: 55px;
+  }
+  
+  /* MAIN */
+  
+  /** button **/
+  button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .button {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  /** text **/
+  .texto {
+    margin: 25px;
+    padding: 25px;
+    color: rgb(0, 0, 8);
+    text-align: justify;
+    background-color: rgba(118, 126, 150, 0.7);
+    border-radius: 55px;
+  }
+  
+  .curiosidades {
+    margin: 25px;
+    padding: 25px;
+    color: rgb(0, 0, 8);
+    background-color: rgba(118, 126, 150, 0.7);
+    border-radius: 55px;
+    font-size: 56px;
+    text-align: center;
+    text-shadow: 5px 4px 3px rgb(255, 238, 2);
+  }
+  
+  .curiosidades-itens {
+    margin: 25px;
+    padding: 55px;
+    border-radius: 55px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    text-align: justify;
+    background-color: rgba(118, 126, 150, 0.7);
+  }
+  
+  /** video **/
+  .video {
+    display: flex;
+    padding: 20px 20%;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .vide_1 {
+    width: 100%;
+  }
+  
+  /* FOOTER */
+  .icons {
+    display: flex;
+    width: auto;
+    height: 30px;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .btn1 {
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    color: rgb(255, 13, 5);
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .btn2 {
+    border: none;
+    color: rgb(201, 0, 134);
+    padding: 2px 2px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  
+  .btn2:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  

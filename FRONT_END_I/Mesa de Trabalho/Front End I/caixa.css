@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+    
+.Caixa {
+    right: 0%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color:lawngreen;
+    border:solid 2px black;
+}
+.Caixa2 {
+    right: 0%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border:solid 2px black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Caixa3{
+    left: 78%;
+    bottom: 54%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color:lawngreen;
+    border:solid 2px black;
+    
+
+}
+.Caixa4 {
+    left: 78%;
+    bottom: 54%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border:solid 2px black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.Caixa5{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border:solid 2px black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: crimson;
+}
+
+.Caixa6 {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    border: solid 2px black;
+    background-color: cadetblue;
+}
+p {
+    bottom: 50%;
+    position: fixed;
+    transform: translate(50%, 50%);
+}

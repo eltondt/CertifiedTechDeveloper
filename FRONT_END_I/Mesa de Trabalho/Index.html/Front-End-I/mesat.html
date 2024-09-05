@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<f>, initial-scale=1.0">
+    <title>Document</title>
+    <link href="mesat.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="titulo">Doces DaHora</h1>
+    <div class="caixa">
+    <form>
+        <label for=”name” id="">Nome:</label>
+        <input type=”text” name=”usuário” id="name" placeholder="Digite seu nome completo">
+    
+        <label for=”endereco” >Endereço Completo</label>
+        <input type=”text” name=”usuário” id="endereco"  placeholder="Digite seu endereço completo">
+    
+        <label for=”email” id="">Email</label>
+        <input type=”email” name=”usuário” id="email"  placeholder="Digite seu email">
+
+        <label for=”checkbox” id="">Data de Entrega</label>
+        <input type="dateTime-local" tabindex="1" />
+    
+        <fieldset>
+            <legend>Tipos de Doces</legend>
+            <div>
+              <input type="radio" name="brigadeiro" id="brigadeiro" />
+              <label for="brigadeiro">Brigadeiros</label>
+           
+              <input type="radio" name="bolo" id="bolo" />
+              <label for="bolo">Bolos</label>
+
+              <input type="radio" name="torta" id="torta" />
+              <label for="torta">Tortas</label>
+
+
+            </div>
+          </fieldset>
+               
+            <label for="opcao">Escolha uma opção de Sabor</label>
+            <select name="Doces" id="opcao">
+            <option value="Doces" selected disabled >Sabores</option>
+            <option value="Brigadeiro">Brigadeiro</option>
+            <option value="Beijinho">Beijinho</option>
+            <option value="Brigadeiro Colorido">Brigadeiro Colorido</option>
+            </select>
+
+            <label for="opcao">Tipo de Massa</label>
+            <select name="Doces" id="opcao">
+            <option value="Doces" selected disabled >Sabores</option>
+            <option value="Brigadeiro">Brigadeiro</option>
+            <option value="Beijinho">Beijinho</option>
+            <option value="Brigadeiro Colorido">Brigadeiro Colorido</option>
+
+            <input type="dateTime-local" tabindex="1" />
+            
+            <button type="reset">Limpar</button>
+            <button tipe="submit">Enviar</button>
+
+            <div>
+                <input type="checkbox" name="" id="check" />
+                <label for="check">Check</label>
+              </div>
+              <div>
+                <label style="display: block;">Test</label>
+                <input type="text" name="" id="" />
+              </div>
+              <input type="dateTime-local" tabindex="1" />
+      <input type="color" tabindex="3" />
+      <input type="text" tabindex="2" />
+      <input
+        type="text"
+        id="username"
+        required
+        placeholder="Enter Name"
+        oninvalid="this.setCustomValidity('Enter User Name Here')"
+        oninput="this.setCustomValidity('')"
+      />
+            
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+    
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;1,300&display=swap');
+    
+  body {
+    font-family: 'Anton', sans-serif, Arial, Helvetica;
+  }
+    
+  h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+  }
+    
+  h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+  }
+    
+  p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+  }
+   
+  body {
+    background-image: url('https://veja.abril.com.br/wp-content/uploads/2021/08/Kristen-Stewart-e1633109536147.jpg?quality=70&strip=info&resize=680,453');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-fluid {
+    background-color: cadetblue;
+    display: flex;
+  }
+  
+  .tel {
+    padding: 0px 30px;
+    display: flex;
+    color: black;
+  }
+   
+  header.textheader {
+    color: rgb(0, 0, 8);
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(118, 126, 150, 0.7);
+    border-radius: 55px;
+  }
+    
+  button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, -50%);
+  }
+    
+  .texto {
+    margin: 25px;
+    padding: 25px;
+    color: rgb(0, 0, 8);
+    text-align: justify;
+    background-color: rgba(118, 126, 150, 0.7);
+    border-radius: 55px;
+  }
+    
+  .curiosidades {
+    margin: 25px;
+    padding: 25px;
+    color: rgb(0, 0, 8);
+    background-color: rgba(118, 126, 150, 0.7);
+    border-radius: 55px;
+    font-size: 56px;
+    text-align: center;
+      
+  }
+   
+  .curiosidades-itens {
+    margin: 25px;
+    padding: 55px;
+    border-radius: 55px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    text-align: justify;
+    background-color: rgba(118, 126, 150, 0.7);
+  }
+    
+  .video {
+    display: flex;
+    padding: 20px 20%;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .vide_1 {
+    width: 100%;
+  }
+    
+  .icons {
+    display: flex;
+    width: auto;
+    height: 30px;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+    
+  .btn2:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }

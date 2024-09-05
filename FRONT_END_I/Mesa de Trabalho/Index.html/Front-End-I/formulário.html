@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<f>, initial-scale=1.0">
+    <title>Document</title>
+    <link href="formulário.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="titulo">Contato</h1>
+    <div class="caixa">
+    <form>
+        <div>
+        <label for=”name” id="">Nome:</label>
+        <input type=”text” name=”usuário” id="name" placeholder="Digite seu nome completo" required>
+
+        <label for=”endereco” >Endereço:</label>
+        <input type=”text” name=”usuário” id="endereco"  placeholder="Digite seu endereço completo" required>
+    
+        <label for=”email” id="">Email:</label>
+        <input type=”email” name=”usuário” id="email"  placeholder="Digite seu email" required>
+
+        <label for= "telefone" id="">Telefone:</label>
+        <input type= "tel" name=”usuário” id="telefone"  placeholder="Digite seu telefone ou celular" required>
+
+        <input
+        type="date"
+        id="formulario"
+        name="formulario"
+        min="1910-01-01"
+        max="2050-12-31"
+        required
+        >
+        </div>
+    <fieldset>
+        <legend>Idade</legend>
+        <div class="idade">
+        <input type= "radio" name= "Idade" id= "check" required>
+        <label for= "check" >Maior de 18 anos</label>
+        
+        <input type= "radio" name= "Idade" id= "check1" required>
+        <label for= "check1" >Menor de 18 anos</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Pontos Turísticos</legend>
+        
+        <input type= "radio" name= "turismo" id= "check3">
+        <label for= "check3" >Padaria Real</label>
+        
+        <input type= "radio" name= "turismo1" id= "check4">
+        <label for= "check4" >Museu Histórico</label>
+
+        <input type= "radio" name= "turismo2" id= "check5">
+        <label for= "check5" >Parques</label>
+
+        <input type= "radio" name= "turismo3" id= "check6">
+        <label for= "check6" >Zoológicos</label>
+
+        <input type= "radio" name= "turismo4" id= "check7">
+        <label for= "check7" >Barzinhos</label>
+
+        <input type= "radio" name= "turismo5" id= "check8">
+        <label for= "check8" >Restaurantes</label>
+        
+    </fieldset>
+
+    <fieldset>    
+        <legend>Interesse</legend>
+        <label for="opcao"></label>
+        <select name="interesse" id="opcao">
+        <option value="interesse" selected disabled >Interesse</option>
+        <option value="opcao">Turista</option>
+        <option value="opcao">Residente</option>
+        <option value="opcao">Estudante</option>
+        </select>
+    </fieldset>
+        <button type="reset">Limpar</button>
+        <button tipe="submit">Enviar</button>
+    </form>
+    </div>
+</body>
+</html>
